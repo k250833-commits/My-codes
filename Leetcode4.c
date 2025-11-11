@@ -13,7 +13,8 @@ int main() {
 	scanf(" %f", &x);
 	float Kelvin=convert(&x);
 	float Fahrenheit=convert2(&x);
-	printf("\nTemperaturem at %.2f Celsius converted in Kelvin is %.2f and converted in Fahrenheit is %.2f.", x,Kelvin,Fahrenheit);
+	printf("\nTemperature at %.2f Celsius converted in Kelvin is %.2f and converted in Fahrenheit is %.2f.", x,Kelvin,Fahrenheit);
 	return 0;
 }
+
 
