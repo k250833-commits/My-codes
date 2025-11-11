@@ -1,9 +1,9 @@
 #include<stdio.h>
-int convert (float *celsius) {
+float convert (float *celsius) {
 	float newx=*celsius + 273.15;
 	return newx;
 }
-int convert2 (float *celsius) {
+float convert2 (float *celsius) {
 	float newy=*celsius * 1.80 +32.00;
 	return newy;
 }
@@ -16,3 +16,4 @@ int main() {
 	printf("\nTemperaturem at %.2f Celsius converted in Kelvin is %.2f and converted in Fahrenheit is %.2f.", x,Kelvin,Fahrenheit);
 	return 0;
 }
+
